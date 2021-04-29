@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    font-family: 'Gilroy-Bold ☞';
+}
+
+header {
+    height: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    border-bottom: 1px solid #828282;
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #828282;
+    transition: color .3s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.global_container_header {
+    display: flex;
+    justify-content: center;
+}
+
+.container_header {
+    width: 100%;
+    max-width: 940px;
+}
+
+.container_header_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_header_text h2 {
+    width: 120px;
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 47px;
+    color: #070707;
+}
+
+.p_two_header {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 146px;
+}
+
+.ru_eng_con {
+    display: flex;
+    align-items: center;
+}
+
+.ru_eng {
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 16px;
+    color: #828282;
+    transform: rotate(-90deg);
+    height: 14px;
+}
+
+.ru_eng span {
+    color: black;
+}
+
+.photo {
+    width: 100%;
+    max-width: 940px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.min {
+    display: none;
+}
+
+.global_about_me_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F6F6;
+    padding: 120px 0 57px 0;
+}
+
+.cont_elements {
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cont_elements p {
+    margin: 0;
+}
+
+.cont_elements div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.global_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 91px 0 81px 0;
+}
+
+.img_global {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 940px;
+}
+
+.work {
+    margin-bottom: 83px;
+}
+
+.img_p_stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_p_stars p {
+    margin: 23px 0 41px 0;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    width: 167px;
+}
+
+.global_photos {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 112px 0 0 0;
+}
+
+.global_photos h2 {
+    margin-bottom: 47px;
+}
+
+.three_photos p {
+    text-align: center;
+    margin: 45px 0 96px 0;
+    width: 100%;
+    max-width: 940px;
+}
+
+.three_photos img {
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 123px;
+}
+
+.foot button {
+    color: #F6F6F6;
+    background: #070707;
+    margin-bottom: 51px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.icons_four {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.icon_container {
+    position: absolute;
+    right: 30px;
+    top: 68px;
+}
+
+.icon {
+    width: 33px;
+    height: 35px;
+    position: relative;
+    right: 0;
+    cursor: pointer;
+}
+
+.icon span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+}
+
+.icon span:nth-child(2),
+.icon span:nth-child(4) {
+    top: 8px;
+}
+
+.icon span:nth-child(3) {
+    top: 16px;
+}
+
+.icon_container {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 0 2%;
+    }
+
+    header {
+        display: none;
+    }
+
+    .ru_eng {
+        display: none;
+    }
+
+    .container_header_text {
+        display: block;
+    }
+
+    .img_global {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_p_stars {
+        margin: 15px;
+    }
+
+    .container_header_text h2 {
+        margin-top: 65px;
+    }
+
+    .icon_container {
+        display: block;
+    }
+
+    .min {
+        display: block;
+    }
+
+    .max {
+        display: none;
+    }
+
+    .global_container_header {
+        padding-bottom: 83px;
+    }
+
+    .stars {
+        margin-bottom: 81px;
+    }
+
+    .three_photos p {
+        font-family: 'Gilroy-Medium ☞';
+        font-size: 18px;
+        text-decoration-line: underline;
+        padding-bottom: 1px;
+    }
+
+    .foot p {
+        margin: 0;
+    }
+
+    .foot button {
+        margin-top: 39px;
+    }
+
+    .icons_four {
+        width: 80%;
+        margin-bottom: 49px;
+    }
+}
