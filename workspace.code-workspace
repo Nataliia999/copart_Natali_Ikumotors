@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../last"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "last"
+	}
+}
